@@ -1,0 +1,317 @@
+{
+	"info": {
+		"_postman_id": "8f14f190-b868-4d77-91c2-8dce7b0a76e7",
+		"name": "Banco Pichincha",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contraseña\": \"111\",\r\n  \"estado\": true,\r\n  \"persona\": {\r\n    \"identificacion\": \"1724395536\",\r\n    \"nombre\": \"Mario Fernando Palomo\",\r\n    \"genero\": \"M\",\r\n    \"edad\": \"25\",\r\n    \"direccion\": \"Magdalena\",\r\n    \"telefono\": \"0999999999\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:58485/clientes/crear",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"clientes",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contraseña\": \"489789!Ñ]+as\",\r\n  \"estado\": true,\r\n  \"persona\": {\r\n    \"identificacion\": \"1724395536\",\r\n    \"nombre\": \"Mario Fernando Palomo\",\r\n    \"genero\": \"Masculino\",\r\n    \"edad\": \"26\",\r\n    \"direccion\": \"Los Libertadores Oe956\",\r\n    \"telefono\": \"0979212157\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:58485/clientes/editar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"clientes",
+								"editar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:58485/clientes/eliminar?identificacion=1724395536",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"clientes",
+								"eliminar"
+							],
+							"query": [
+								{
+									"key": "identificacion",
+									"value": "1724395536"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "buscar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:58485/clientes/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"clientes",
+								"buscar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "buscar uno",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:58485/clientes/buscarUno?identificacion=1724395536",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"clientes",
+								"buscarUno"
+							],
+							"query": [
+								{
+									"key": "identificacion",
+									"value": "1724395536"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cuentas",
+			"item": [
+				{
+					"name": "crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"numero\": \"585545\",\r\n  \"tipo\": \"Corriente\",\r\n  \"saldoInicial\": 1000,\r\n  \"estado\": true,\r\n  \"clienteId\": 1006\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:58485/cuentas/crear",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"cuentas",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"numero\": \"496825\",\r\n  \"tipo\": \"Ahorros 1\",\r\n  \"saldoInicial\": 541,\r\n  \"estado\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:58485/cuentas/editar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"cuentas",
+								"editar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:58485/cuentas/eliminar?numero=496825",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"cuentas",
+								"eliminar"
+							],
+							"query": [
+								{
+									"key": "numero",
+									"value": "496825"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "buscar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:58485/cuentas/buscar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"cuentas",
+								"buscar"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Movimientos",
+			"item": [
+				{
+					"name": "crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"tipo\": \"Retiro\",\r\n  \"valor\": 540,\r\n  \"cuenta\": {\r\n    \"numero\": \"496825\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:58485/movimientos/crear",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"movimientos",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reporte",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:58485/movimientos/reporte?fechaInicio=2022-05-16&fechaFin=2022-05-17",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "58485",
+							"path": [
+								"movimientos",
+								"reporte"
+							],
+							"query": [
+								{
+									"key": "fechaInicio",
+									"value": "2022-05-16"
+								},
+								{
+									"key": "fechaFin",
+									"value": "2022-05-17"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

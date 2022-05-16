@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "banco-api", "banco-api.csproj", "{436FF80B-63E5-4F5D-AC4A-32BCF2293DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "banco-dto", "..\banco-dto\banco-dto.csproj", "{0D3DD5A3-BCB0-431A-8678-845194C9B497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "banco-dao", "..\banco-dao\banco-dao.csproj", "{FFC08623-A5D2-49B2-85D9-63FA366DCE4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436FF80B-63E5-4F5D-AC4A-32BCF2293DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436FF80B-63E5-4F5D-AC4A-32BCF2293DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436FF80B-63E5-4F5D-AC4A-32BCF2293DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436FF80B-63E5-4F5D-AC4A-32BCF2293DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3DD5A3-BCB0-431A-8678-845194C9B497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3DD5A3-BCB0-431A-8678-845194C9B497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3DD5A3-BCB0-431A-8678-845194C9B497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3DD5A3-BCB0-431A-8678-845194C9B497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC08623-A5D2-49B2-85D9-63FA366DCE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC08623-A5D2-49B2-85D9-63FA366DCE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC08623-A5D2-49B2-85D9-63FA366DCE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC08623-A5D2-49B2-85D9-63FA366DCE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {930A2358-368F-43D1-B5C4-E19EC021B366}
+	EndGlobalSection
+EndGlobal

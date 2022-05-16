@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "436ff80b-63e5-4f5d-ac4a-32bcf2293dea": {
+      "ProjectGuid": "436ff80b-63e5-4f5d-ac4a-32bcf2293dea",
+      "DisplayName": "banco-api",
+      "ColorIndex": 0
+    },
+    "ffc08623-a5d2-49b2-85d9-63fa366dce4d": {
+      "ProjectGuid": "ffc08623-a5d2-49b2-85d9-63fa366dce4d",
+      "DisplayName": "banco-dao",
+      "ColorIndex": 1
+    },
+    "0d3dd5a3-bcb0-431a-8678-845194c9b497": {
+      "ProjectGuid": "0d3dd5a3-bcb0-431a-8678-845194c9b497",
+      "DisplayName": "banco-dto",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

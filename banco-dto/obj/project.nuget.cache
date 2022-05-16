@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rhekrfz6mL+X8uyyss/dsVLVfiWWYCx0x/M87U2tz0Q1WMxG7aENF4ZMZhCdW9UGoBDf9ZFRso8G1QwAS5zZfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mario\\Documents\\Programacion\\BancoPrueba\\banco-dto\\banco-dto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mario\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
